@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.Header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.ComeHomeLogo {
+  height: 30px;
+  padding: 20px;
+}
+
+.AvmBanner {
+  padding: 30px;
+}
+
+.PropertyImage {
+  border-radius: 14px;
+  width: 150px;
+  height: 150px;
+}
+
+.SignUpButton {
+  width: 100px;
+  height: 30px;
+  border-radius: 8px;
+  border: none;
+  color: white;
+  padding: 0 10px;
+  font-weight: 900;
+  font-size: 15px;
+  background: linear-gradient(
+    80deg,
+    rgb(88, 64, 234) 0%,
+    rgb(58, 97, 222) 100%
+  );
+}
+
+.SignUpButton:hover {
+  cursor: pointer;
+}
